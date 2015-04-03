@@ -1,6 +1,6 @@
 //
 //  radix.swift
-//  Radon
+//  Patrician
 //
 //  Created by Matt Isaacs.
 //  Copyright (c) 2015 Matt Isaacs. All rights reserved.
@@ -39,10 +39,15 @@ public struct RadixTree<T> {
         self.size = 0
     }
 
+    public init() {
+        self.init(root: Node(edges: [], prefix: "", terminal: nil))
+    }
+
     public static func emptyTree() -> RadixTree {
         return self.init(root: Node(edges: [], prefix: "", terminal: nil))
     }
 
+    // Item insertion
     public mutating func insert(key: String, value: T) {
         //var search: [Character] = Array(key)
         var search = key
@@ -109,6 +114,7 @@ public struct RadixTree<T> {
         }
     }
 
+    // Item lookup by key.
     public func lookup(key: String) -> T? {
         var search = key
         var currentNode = self.root
@@ -136,6 +142,7 @@ public struct RadixTree<T> {
         }
     }
 
+    // Remove items from tree.
     public mutating func delete(key: String) {
         var search = key
         var currentNode = self.root

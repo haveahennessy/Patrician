@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		C52B9F0E1ACDFFAA00577161 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52B9F0D1ACDFFAA00577161 /* Extensions.swift */; };
-		C550A9D41AA7FFD2004C8B8D /* Radon.h in Headers */ = {isa = PBXBuildFile; fileRef = C550A9D31AA7FFD2004C8B8D /* Radon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C550A9DA1AA7FFD2004C8B8D /* Radon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C550A9CE1AA7FFD2004C8B8D /* Radon.framework */; };
-		C550A9E11AA7FFD2004C8B8D /* RadonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C550A9E01AA7FFD2004C8B8D /* RadonTests.swift */; };
+		C550A9D41AA7FFD2004C8B8D /* Patrician.h in Headers */ = {isa = PBXBuildFile; fileRef = C550A9D31AA7FFD2004C8B8D /* Patrician.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C550A9DA1AA7FFD2004C8B8D /* Patrician.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C550A9CE1AA7FFD2004C8B8D /* Patrician.framework */; };
+		C550A9E11AA7FFD2004C8B8D /* BasicOpsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C550A9E01AA7FFD2004C8B8D /* BasicOpsTests.swift */; };
 		C5E12CFC1ACCA37C0026FB51 /* Radix.swift in Sources */ = {isa = PBXBuildFile; fileRef = C550A9EA1AA7FFEC004C8B8D /* Radix.swift */; };
 		C5E12CFD1ACCA3C80026FB51 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E12CFA1ACCA2B30026FB51 /* Node.swift */; };
 /* End PBXBuildFile section */
@@ -21,18 +21,18 @@
 			containerPortal = C550A9C51AA7FFD2004C8B8D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C550A9CD1AA7FFD2004C8B8D;
-			remoteInfo = Radon;
+			remoteInfo = Patrician;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		C52B9F0D1ACDFFAA00577161 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		C550A9CE1AA7FFD2004C8B8D /* Radon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Radon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C550A9CE1AA7FFD2004C8B8D /* Patrician.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Patrician.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C550A9D21AA7FFD2004C8B8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C550A9D31AA7FFD2004C8B8D /* Radon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Radon.h; sourceTree = "<group>"; };
-		C550A9D91AA7FFD2004C8B8D /* RadonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C550A9D31AA7FFD2004C8B8D /* Patrician.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Patrician.h; sourceTree = "<group>"; };
+		C550A9D91AA7FFD2004C8B8D /* PatricianTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatricianTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C550A9DF1AA7FFD2004C8B8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C550A9E01AA7FFD2004C8B8D /* RadonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadonTests.swift; sourceTree = "<group>"; };
+		C550A9E01AA7FFD2004C8B8D /* BasicOpsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicOpsTests.swift; sourceTree = "<group>"; };
 		C550A9EA1AA7FFEC004C8B8D /* Radix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Radix.swift; sourceTree = "<group>"; };
 		C5E12CFA1ACCA2B30026FB51 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -49,7 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C550A9DA1AA7FFD2004C8B8D /* Radon.framework in Frameworks */,
+				C550A9DA1AA7FFD2004C8B8D /* Patrician.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,8 +59,8 @@
 		C550A9C41AA7FFD2004C8B8D = {
 			isa = PBXGroup;
 			children = (
-				C550A9D01AA7FFD2004C8B8D /* Radon */,
-				C550A9DD1AA7FFD2004C8B8D /* RadonTests */,
+				C550A9D01AA7FFD2004C8B8D /* Patrician */,
+				C550A9DD1AA7FFD2004C8B8D /* PatricianTests */,
 				C550A9CF1AA7FFD2004C8B8D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,22 +68,22 @@
 		C550A9CF1AA7FFD2004C8B8D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C550A9CE1AA7FFD2004C8B8D /* Radon.framework */,
-				C550A9D91AA7FFD2004C8B8D /* RadonTests.xctest */,
+				C550A9CE1AA7FFD2004C8B8D /* Patrician.framework */,
+				C550A9D91AA7FFD2004C8B8D /* PatricianTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C550A9D01AA7FFD2004C8B8D /* Radon */ = {
+		C550A9D01AA7FFD2004C8B8D /* Patrician */ = {
 			isa = PBXGroup;
 			children = (
-				C550A9D31AA7FFD2004C8B8D /* Radon.h */,
+				C550A9D31AA7FFD2004C8B8D /* Patrician.h */,
 				C550A9D11AA7FFD2004C8B8D /* Supporting Files */,
 				C550A9EA1AA7FFEC004C8B8D /* Radix.swift */,
 				C52B9F0D1ACDFFAA00577161 /* Extensions.swift */,
 				C5E12CFA1ACCA2B30026FB51 /* Node.swift */,
 			);
-			path = Radon;
+			path = Patrician;
 			sourceTree = "<group>";
 		};
 		C550A9D11AA7FFD2004C8B8D /* Supporting Files */ = {
@@ -94,13 +94,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C550A9DD1AA7FFD2004C8B8D /* RadonTests */ = {
+		C550A9DD1AA7FFD2004C8B8D /* PatricianTests */ = {
 			isa = PBXGroup;
 			children = (
-				C550A9E01AA7FFD2004C8B8D /* RadonTests.swift */,
+				C550A9E01AA7FFD2004C8B8D /* BasicOpsTests.swift */,
 				C550A9DE1AA7FFD2004C8B8D /* Supporting Files */,
 			);
-			path = RadonTests;
+			path = PatricianTests;
 			sourceTree = "<group>";
 		};
 		C550A9DE1AA7FFD2004C8B8D /* Supporting Files */ = {
@@ -118,16 +118,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C550A9D41AA7FFD2004C8B8D /* Radon.h in Headers */,
+				C550A9D41AA7FFD2004C8B8D /* Patrician.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C550A9CD1AA7FFD2004C8B8D /* Radon */ = {
+		C550A9CD1AA7FFD2004C8B8D /* Patrician */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C550A9E41AA7FFD2004C8B8D /* Build configuration list for PBXNativeTarget "Radon" */;
+			buildConfigurationList = C550A9E41AA7FFD2004C8B8D /* Build configuration list for PBXNativeTarget "Patrician" */;
 			buildPhases = (
 				C550A9C91AA7FFD2004C8B8D /* Sources */,
 				C550A9CA1AA7FFD2004C8B8D /* Frameworks */,
@@ -138,14 +138,14 @@
 			);
 			dependencies = (
 			);
-			name = Radon;
-			productName = Radon;
-			productReference = C550A9CE1AA7FFD2004C8B8D /* Radon.framework */;
+			name = Patrician;
+			productName = Patrician;
+			productReference = C550A9CE1AA7FFD2004C8B8D /* Patrician.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C550A9D81AA7FFD2004C8B8D /* RadonTests */ = {
+		C550A9D81AA7FFD2004C8B8D /* PatricianTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C550A9E71AA7FFD2004C8B8D /* Build configuration list for PBXNativeTarget "RadonTests" */;
+			buildConfigurationList = C550A9E71AA7FFD2004C8B8D /* Build configuration list for PBXNativeTarget "PatricianTests" */;
 			buildPhases = (
 				C550A9D51AA7FFD2004C8B8D /* Sources */,
 				C550A9D61AA7FFD2004C8B8D /* Frameworks */,
@@ -156,9 +156,9 @@
 			dependencies = (
 				C550A9DC1AA7FFD2004C8B8D /* PBXTargetDependency */,
 			);
-			name = RadonTests;
-			productName = RadonTests;
-			productReference = C550A9D91AA7FFD2004C8B8D /* RadonTests.xctest */;
+			name = PatricianTests;
+			productName = PatricianTests;
+			productReference = C550A9D91AA7FFD2004C8B8D /* PatricianTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -178,7 +178,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C550A9C81AA7FFD2004C8B8D /* Build configuration list for PBXProject "Radon" */;
+			buildConfigurationList = C550A9C81AA7FFD2004C8B8D /* Build configuration list for PBXProject "Patrician" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -190,8 +190,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C550A9CD1AA7FFD2004C8B8D /* Radon */,
-				C550A9D81AA7FFD2004C8B8D /* RadonTests */,
+				C550A9CD1AA7FFD2004C8B8D /* Patrician */,
+				C550A9D81AA7FFD2004C8B8D /* PatricianTests */,
 			);
 		};
 /* End PBXProject section */
@@ -228,7 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C550A9E11AA7FFD2004C8B8D /* RadonTests.swift in Sources */,
+				C550A9E11AA7FFD2004C8B8D /* BasicOpsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,7 +237,7 @@
 /* Begin PBXTargetDependency section */
 		C550A9DC1AA7FFD2004C8B8D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C550A9CD1AA7FFD2004C8B8D /* Radon */;
+			target = C550A9CD1AA7FFD2004C8B8D /* Patrician */;
 			targetProxy = C550A9DB1AA7FFD2004C8B8D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -336,10 +336,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Radon/Info.plist;
+				INFOPLIST_FILE = Patrician/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Patrician;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -353,10 +353,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Radon/Info.plist;
+				INFOPLIST_FILE = Patrician/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Patrician;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -372,9 +372,9 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = RadonTests/Info.plist;
+				INFOPLIST_FILE = PatricianTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PatricianTests;
 			};
 			name = Debug;
 		};
@@ -385,16 +385,16 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = RadonTests/Info.plist;
+				INFOPLIST_FILE = PatricianTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PatricianTests;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C550A9C81AA7FFD2004C8B8D /* Build configuration list for PBXProject "Radon" */ = {
+		C550A9C81AA7FFD2004C8B8D /* Build configuration list for PBXProject "Patrician" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C550A9E21AA7FFD2004C8B8D /* Debug */,
@@ -403,21 +403,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C550A9E41AA7FFD2004C8B8D /* Build configuration list for PBXNativeTarget "Radon" */ = {
+		C550A9E41AA7FFD2004C8B8D /* Build configuration list for PBXNativeTarget "Patrician" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C550A9E51AA7FFD2004C8B8D /* Debug */,
 				C550A9E61AA7FFD2004C8B8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		C550A9E71AA7FFD2004C8B8D /* Build configuration list for PBXNativeTarget "RadonTests" */ = {
+		C550A9E71AA7FFD2004C8B8D /* Build configuration list for PBXNativeTarget "PatricianTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C550A9E81AA7FFD2004C8B8D /* Debug */,
 				C550A9E91AA7FFD2004C8B8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

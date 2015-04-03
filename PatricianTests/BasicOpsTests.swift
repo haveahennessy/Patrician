@@ -1,15 +1,15 @@
 //
-//  RadonTests.swift
-//  RadonTests
+//  BasicOpsTests.swift
+//  PatricianTests
 //
 //  Created by Matt Isaacs.
 //  Copyright (c) 2015 Matt Isaacs. All rights reserved.
 //
 
-import Radon
+import Patrician
 import XCTest
 
-class RadonTests: XCTestCase {
+class BasicOpsTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -20,7 +20,7 @@ class RadonTests: XCTestCase {
     }
     
     func testInsert() {
-        var tree: RadixTree<Int> = RadixTree.emptyTree()
+        var tree: RadixTree<Int> = RadixTree()
         tree.insert("wolf", value: 3)
         tree.insert("world", value: 2)
         tree.insert("bear", value: 1)
@@ -39,7 +39,7 @@ class RadonTests: XCTestCase {
     }
 
     func testDeleteSizeOne() {
-        var tree: RadixTree<Int> = RadixTree.emptyTree()
+        var tree: RadixTree<Int> = RadixTree()
         tree.insert("wolf", value: 3)
         XCTAssert(tree.count == 1, "Size mismatch.")
         tree.delete("w")
@@ -51,7 +51,7 @@ class RadonTests: XCTestCase {
     }
 
     func testDelete() {
-        var tree: RadixTree<Int> = RadixTree.emptyTree()
+        var tree: RadixTree<Int> = RadixTree()
         tree.insert("wolf", value: 3)
         tree.insert("world", value: 2)
         XCTAssert(tree.count == 2, "Size mismatch.")
