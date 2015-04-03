@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C52B9F0E1ACDFFAA00577161 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52B9F0D1ACDFFAA00577161 /* Extensions.swift */; };
 		C550A9D41AA7FFD2004C8B8D /* Radon.h in Headers */ = {isa = PBXBuildFile; fileRef = C550A9D31AA7FFD2004C8B8D /* Radon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C550A9DA1AA7FFD2004C8B8D /* Radon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C550A9CE1AA7FFD2004C8B8D /* Radon.framework */; };
 		C550A9E11AA7FFD2004C8B8D /* RadonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C550A9E01AA7FFD2004C8B8D /* RadonTests.swift */; };
-		C550A9EB1AA7FFEC004C8B8D /* radix.swift in Sources */ = {isa = PBXBuildFile; fileRef = C550A9EA1AA7FFEC004C8B8D /* radix.swift */; };
+		C5E12CFC1ACCA37C0026FB51 /* Radix.swift in Sources */ = {isa = PBXBuildFile; fileRef = C550A9EA1AA7FFEC004C8B8D /* Radix.swift */; };
+		C5E12CFD1ACCA3C80026FB51 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E12CFA1ACCA2B30026FB51 /* Node.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,13 +26,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C52B9F0D1ACDFFAA00577161 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		C550A9CE1AA7FFD2004C8B8D /* Radon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Radon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C550A9D21AA7FFD2004C8B8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C550A9D31AA7FFD2004C8B8D /* Radon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Radon.h; sourceTree = "<group>"; };
 		C550A9D91AA7FFD2004C8B8D /* RadonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C550A9DF1AA7FFD2004C8B8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C550A9E01AA7FFD2004C8B8D /* RadonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadonTests.swift; sourceTree = "<group>"; };
-		C550A9EA1AA7FFEC004C8B8D /* radix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = radix.swift; sourceTree = "<group>"; };
+		C550A9EA1AA7FFEC004C8B8D /* Radix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Radix.swift; sourceTree = "<group>"; };
+		C5E12CFA1ACCA2B30026FB51 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +79,9 @@
 			children = (
 				C550A9D31AA7FFD2004C8B8D /* Radon.h */,
 				C550A9D11AA7FFD2004C8B8D /* Supporting Files */,
-				C550A9EA1AA7FFEC004C8B8D /* radix.swift */,
+				C550A9EA1AA7FFEC004C8B8D /* Radix.swift */,
+				C52B9F0D1ACDFFAA00577161 /* Extensions.swift */,
+				C5E12CFA1ACCA2B30026FB51 /* Node.swift */,
 			);
 			path = Radon;
 			sourceTree = "<group>";
@@ -212,7 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C550A9EB1AA7FFEC004C8B8D /* radix.swift in Sources */,
+				C5E12CFC1ACCA37C0026FB51 /* Radix.swift in Sources */,
+				C52B9F0E1ACDFFAA00577161 /* Extensions.swift in Sources */,
+				C5E12CFD1ACCA3C80026FB51 /* Node.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
