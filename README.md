@@ -9,7 +9,7 @@ Patrician, being the aristocrat that it is, prefers iOS 8. However, since there 
 ## Why
 Patricia trees have a number of benefits over typical dictionaries when it comes to using string keys. Peruse this [wikipedia entry](http://en.wikipedia.org/wiki/Radix_tree) for a more complete story.
 
-# Installation
+## Installation
 
 [Carthage](https://github.com/Carthage/Carthage) is the prefered method of installation.
 Add the follwing to your Cartfile:
@@ -24,7 +24,7 @@ $ carthage update
 
 Patrician will be built as a dynamic framework, which can then be added to your application.
 
-# Usage
+## Usage
 Patrician provides a single type: ```RadixTree```.  
 ```RadixTree``` can be used just as you would use the built in ```Dictionary``` type, with one caveat: Keys have to be strings.
 
