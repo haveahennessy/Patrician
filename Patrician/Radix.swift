@@ -215,3 +215,12 @@ public struct RadixTree<T> {
         }
     }
 }
+
+extension RadixTree : DictionaryLiteralConvertible {
+    public init(dictionaryLiteral elements: (String, T)...) {
+        self.init()
+        for (key, val) in elements {
+            self.insert(key, value: val)
+        }
+    }
+}

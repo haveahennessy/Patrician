@@ -62,6 +62,15 @@ class BasicOpsTests: XCTestCase {
         XCTAssertNil(tree["wolf"], "Delete failed.")
         XCTAssert(tree.count == 1, "Size mismatch.")
     }
+
+    func testLiteralConverter() {
+        var tree: RadixTree<Int> = [ "bear" : 1, "beer" : 2, "wolf" : 3, "world" :4]
+        XCTAssert(tree.count == 4, "Size mismatch.")
+        XCTAssert(tree["bear"] == 1, "Missing value.")
+        XCTAssert(tree["beer"] == 2, "Missing value.")
+        XCTAssert(tree["wolf"] == 3, "Missing value.")
+        XCTAssert(tree["world"] == 4, "Missing value.")
+    }
     
     func testPerformanceExample() {
         self.measureBlock() {
