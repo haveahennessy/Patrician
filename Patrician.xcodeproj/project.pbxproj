@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4E04EED1ADB33AB005CF471 /* Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A4E04EEA1ADB33AB005CF471 /* Base.xcconfig */; };
+		A4E04EEE1ADB33AB005CF471 /* Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A4E04EEB1ADB33AB005CF471 /* Framework.xcconfig */; };
+		A4E04EEF1ADB33AB005CF471 /* Test.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A4E04EEC1ADB33AB005CF471 /* Test.xcconfig */; };
 		C52B9F0E1ACDFFAA00577161 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52B9F0D1ACDFFAA00577161 /* Extensions.swift */; };
 		C550A9D41AA7FFD2004C8B8D /* Patrician.h in Headers */ = {isa = PBXBuildFile; fileRef = C550A9D31AA7FFD2004C8B8D /* Patrician.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C550A9DA1AA7FFD2004C8B8D /* Patrician.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C550A9CE1AA7FFD2004C8B8D /* Patrician.framework */; };
@@ -26,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A4E04EEA1ADB33AB005CF471 /* Base.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Base.xcconfig; sourceTree = "<group>"; };
+		A4E04EEB1ADB33AB005CF471 /* Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Framework.xcconfig; sourceTree = "<group>"; };
+		A4E04EEC1ADB33AB005CF471 /* Test.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Test.xcconfig; sourceTree = "<group>"; };
 		C52B9F0D1ACDFFAA00577161 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		C550A9CE1AA7FFD2004C8B8D /* Patrician.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Patrician.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C550A9D21AA7FFD2004C8B8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +62,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A4E04EE91ADB33AB005CF471 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				A4E04EEA1ADB33AB005CF471 /* Base.xcconfig */,
+				A4E04EEB1ADB33AB005CF471 /* Framework.xcconfig */,
+				A4E04EEC1ADB33AB005CF471 /* Test.xcconfig */,
+			);
+			path = Configurations;
+			sourceTree = SOURCE_ROOT;
+		};
 		C550A9C41AA7FFD2004C8B8D = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +97,7 @@
 				C5E12CFA1ACCA2B30026FB51 /* Node.swift */,
 				C52B9F0D1ACDFFAA00577161 /* Extensions.swift */,
 				C550A9D31AA7FFD2004C8B8D /* Patrician.h */,
+				A4E04EE91ADB33AB005CF471 /* Configurations */,
 				C550A9D11AA7FFD2004C8B8D /* Supporting Files */,
 			);
 			path = Patrician;
@@ -201,6 +218,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4E04EED1ADB33AB005CF471 /* Base.xcconfig in Resources */,
+				A4E04EEE1ADB33AB005CF471 /* Framework.xcconfig in Resources */,
+				A4E04EEF1ADB33AB005CF471 /* Test.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +265,7 @@
 /* Begin XCBuildConfiguration section */
 		C550A9E21AA7FFD2004C8B8D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4E04EEA1ADB33AB005CF471 /* Base.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -291,6 +312,7 @@
 		};
 		C550A9E31AA7FFD2004C8B8D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4E04EEA1ADB33AB005CF471 /* Base.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -330,6 +352,7 @@
 		};
 		C550A9E51AA7FFD2004C8B8D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4E04EEB1ADB33AB005CF471 /* Framework.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
@@ -347,6 +370,7 @@
 		};
 		C550A9E61AA7FFD2004C8B8D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4E04EEB1ADB33AB005CF471 /* Framework.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
@@ -363,6 +387,7 @@
 		};
 		C550A9E81AA7FFD2004C8B8D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4E04EEC1ADB33AB005CF471 /* Test.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -380,6 +405,7 @@
 		};
 		C550A9E91AA7FFD2004C8B8D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4E04EEC1ADB33AB005CF471 /* Test.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

@@ -1,0 +1,8 @@
+#include "Base.xcconfig"
+
+FRAMEWORK_VERSION[sdk=macosx*]                = A
+COMBINE_HIDPI_IMAGES[sdk=macosx*]             = YES
+
+TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]  = 1,2
+TARGETED_DEVICE_FAMILY[sdk=iphone*]           = 1,2
+CODE_SIGN_IDENTITY[sdk=iphoneos*]             = iPhone Developer
