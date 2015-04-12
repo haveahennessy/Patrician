@@ -21,7 +21,7 @@ class Node<T> {
         self.init(edges: edges, prefix: String(prefix), terminal: terminal)
     }
 
-    func search(idx: Int, col: Slice<Edge<T>>, label: Character) -> Int? {
+    func search(idx: Int, col: ArraySlice<Edge<T>>, label: Character) -> Int? {
         let count = col.count
         if count == 1 {
             return label == col[0].label ? idx : nil

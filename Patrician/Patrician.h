@@ -6,7 +6,12 @@
 //  Copyright (c) 2015 Matt Isaacs. All rights reserved.
 //
 
+#import "TargetConditionals.h"
+#if TARGET_OS_IPHONE
 #import <UIKit/UIKit.h>
+#else
+#import <Cocoa/Cocoa.h>
+#endif
 
 //! Project version number for Patrician.
 FOUNDATION_EXPORT double PatricianVersionNumber;
