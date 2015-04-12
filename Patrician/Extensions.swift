@@ -8,7 +8,7 @@
 
 extension String {
     var first: Character? {
-        if countElements(self) > 0 {
+        if count(self) > 0 {
             return self[self.startIndex]
         }
         return nil
@@ -16,7 +16,7 @@ extension String {
 }
 
 extension ContiguousArray {
-    var slice: Slice<T> {
+    var slice: ArraySlice<T> {
         return self[0..<self.endIndex]
     }
 }

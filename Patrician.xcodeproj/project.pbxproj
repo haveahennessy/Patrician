@@ -77,11 +77,11 @@
 		C550A9D01AA7FFD2004C8B8D /* Patrician */ = {
 			isa = PBXGroup;
 			children = (
+				C550A9EA1AA7FFEC004C8B8D /* Radix.swift */,
+				C5E12CFA1ACCA2B30026FB51 /* Node.swift */,
+				C52B9F0D1ACDFFAA00577161 /* Extensions.swift */,
 				C550A9D31AA7FFD2004C8B8D /* Patrician.h */,
 				C550A9D11AA7FFD2004C8B8D /* Supporting Files */,
-				C550A9EA1AA7FFEC004C8B8D /* Radix.swift */,
-				C52B9F0D1ACDFFAA00577161 /* Extensions.swift */,
-				C5E12CFA1ACCA2B30026FB51 /* Node.swift */,
 			);
 			path = Patrician;
 			sourceTree = "<group>";
