@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A4E04EED1ADB33AB005CF471 /* Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A4E04EEA1ADB33AB005CF471 /* Base.xcconfig */; };
-		A4E04EEE1ADB33AB005CF471 /* Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A4E04EEB1ADB33AB005CF471 /* Framework.xcconfig */; };
-		A4E04EEF1ADB33AB005CF471 /* Test.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A4E04EEC1ADB33AB005CF471 /* Test.xcconfig */; };
 		C52B9F0E1ACDFFAA00577161 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52B9F0D1ACDFFAA00577161 /* Extensions.swift */; };
 		C550A9D41AA7FFD2004C8B8D /* Patrician.h in Headers */ = {isa = PBXBuildFile; fileRef = C550A9D31AA7FFD2004C8B8D /* Patrician.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C550A9DA1AA7FFD2004C8B8D /* Patrician.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C550A9CE1AA7FFD2004C8B8D /* Patrician.framework */; };
@@ -184,7 +181,7 @@
 		C550A9C51AA7FFD2004C8B8D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Matt Isaacs";
 				TargetAttributes = {
 					C550A9CD1AA7FFD2004C8B8D = {
@@ -218,9 +215,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4E04EED1ADB33AB005CF471 /* Base.xcconfig in Resources */,
-				A4E04EEE1ADB33AB005CF471 /* Framework.xcconfig in Resources */,
-				A4E04EEF1ADB33AB005CF471 /* Test.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
